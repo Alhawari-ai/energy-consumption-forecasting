@@ -1,2 +1,19 @@
 # energy-consumption-forecasting
 Forecasting household energy project with statistical and ML models
+--> Python version: >=3.9
+
+--> Before running the notebook or scripts, ensure the following two data files are available:
+
+1. household_power_consumption.txt
+     → Download from: https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption
+
+2.weather.json
+     → Provided in the project directory (size: 39 KB)
+      it was downloaded using this link: https://archive-api.open-meteo.com/v1/era5?latitude=48.7761&longitude=2.2901&start_date=2006-12-16&end_date=2010-11-28&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean&timezone=Europe%2FParis
+
+
+--> Inside the main function, insert the paths to the folloiwng location:
+              1.  raw_path = r".......household_power_consumption.txt"
+              2.  weather_path =r"...weather.json"
+
+
