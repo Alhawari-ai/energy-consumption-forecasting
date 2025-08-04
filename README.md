@@ -10,7 +10,7 @@ Forecasting household energy project with statistical and ML models
 1. Install dependencies: `pip install -r requirements.txt`
 2. Run the script: `python energy_consumption_module.py`
 
-## dowonload dataset file
+## download dataset file
 1. household_power_consumption.txt
      → Download from: https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption
 
