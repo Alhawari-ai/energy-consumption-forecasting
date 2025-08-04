@@ -1,8 +1,15 @@
 # energy-consumption-forecasting
 Forecasting household energy project with statistical and ML models
---> Python version: >=3.9
+## Files
+- `energy_consumption_module.py` – main script
+- `weather.json` – weather features
+- `household_power_consumption.txt` – original data
+- `requirements.txt` – dependencies
 
---> Before running the notebook or scripts, ensure the following two data files are available:
+## How to Run
+1. Install dependencies: `pip install -r requirements.txt`
+2. Run the script: `python energy_consumption_module.py`
+
 
 1. household_power_consumption.txt
      → Download from: https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption
